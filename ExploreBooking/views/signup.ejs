@@ -1,0 +1,58 @@
+<%- include('./partials/header'); %>
+
+<form method="post" class="form-container">
+    <h1 class="form-title"><%= title %></h1>
+
+    <div style="text-align: center;">
+        <% for(var i in messages) { %>
+            <%= messages[i] %>
+            <br>
+        <% } %>
+    </div>
+    
+    <div class="form-group">
+    <lable for="firstName">Firstname:</lable>
+    <input type="text" class="form-input"
+    name="firstName"
+    placeholder="FirstName"
+    id="firstName" required>
+    </div>
+
+    <div class="form-group">
+        <lable for="lastName">Lastname:</lable>
+        <input type="text" class="form-input"
+        name="lastName"
+        placeholder="lastName"
+        id="lastName" required>
+        </div>
+
+        <div class="form-group">
+            <lable for="email">Email:</lable>
+            <input type="email" class="form-input"
+            name="email"
+            placeholder="Email"
+            id="email" requred>
+        </div>
+
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-input"
+        name="username"
+        placeholder="Enter Username"
+        id="username" required autofocus>
+    </div>
+
+    <div class="form-group">
+        <lable for="password">Password:</lable>
+        <input type="password" class="form-input"
+        name="password"
+        placeholder="Enter Password"
+        id="password" required>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="signup" class="form-submit-btn"/>                    
+    </div>
+</form>
+
+<%- include('./partials/footer'); %>
