@@ -18,6 +18,6 @@ ExploreBooking is a collaborative web application project, built on the Model-Vi
 - <b>Community Engagement:</b> Engage with a community of fellow travelers through comments, ratings, and reviews.
 
 ### Technical Architecture
-- Node.js and Express.js: For a robust server-side framework.
-- MVC Design: Ensuring separation of concerns for enhanced maintainability.
-- MongoDB Atlas: Reliable cloud-based data storage and management.
+- <b>Node.js</b> and <b>Express.js:</b> For a robust server-side framework.
+- <b>MVC Design:</b> Ensuring separation of concerns for enhanced maintainability.
+- <b>MongoDB Atlas:</b> Reliable cloud-based data storage and management.
