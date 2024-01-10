@@ -10,5 +10,4 @@ The ExploreBooking project, structured around the Model-View-Controller (MVC) ar
 ### Features
 - <b>Local Recommendations:</b> Discover hidden gems recommended by locals.
 - <b>User Contributions:</b> Share and manage personal travel experiences.
-- <b>Interactive Map:</b> Explore destinations visually.
 - <b>Community Engagement:</b> Engage with a community of fellow travelers through comments and reviews.
