@@ -10,8 +10,6 @@
 
 ExploreBooking is a collaborative web application project, built on the Model-View-Controller (MVC) architecture, demonstrating a robust and efficient design. Developed by a dedicated agile team using Node.js and Express.js, it offers scalability and high performance. This architecture facilitates improved maintainability and testability by promoting separation of concerns, while adeptly handling dynamic content and user interactions. Integration with MongoDB Atlas, a cloud-based database service, ensures reliable and scalable data storage and retrieval, enhancing the application's overall functionality. For an in-depth view of the project, including screenshots and technical details, please view the [ExploreBooking TAC Report](https://egorshab.github.io/PDF/TAC%20Technical%20Report.pdf "ExploreBooking TAC").
 
-
-
 ### Features
 - <b>Local Recommendations:</b> Discover hidden travel spots recommended by locals.
 - <b>User Contributions:</b> Share and manage personal travel experiences.
@@ -21,3 +19,16 @@ ExploreBooking is a collaborative web application project, built on the Model-Vi
 - <b>Node.js</b> and <b>Express.js:</b> For a robust server-side framework.
 - <b>MVC Design:</b> Ensuring separation of concerns for enhanced maintainability.
 - <b>MongoDB Atlas:</b> Reliable cloud-based data storage and management.
+
+### Dependencies
+<!-- ExploreBooking incorporates several key dependencies to enhance its functionality: -->
+
+- <b>connect-flash & cookie-parser:</b> For managing messages and cookie parsing.
+- <b>ejs:</b> For server-side HTML rendering.
+- <b>express & express-session:</b> The core framework for handling HTTP requests and sessions.
+- <b>http-errors:</b> Simplifies creation and management of HTTP errors.
+- <b>jquery:</b> Facilitates HTML manipulation and event handling.
+- <b>method-override:</b> Enables the use of HTTP verbs like PUT or DELETE.
+- <b>mongoose:</b> Manages data modeling with MongoDB.
+- <b>morgan:</b> Logs HTTP requests.
+- <b>passport & passport-local:</b> Handles user authentication.
