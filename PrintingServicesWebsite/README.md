@@ -12,7 +12,7 @@ Despite the straightforward initial concept, the development journey faced sever
 ### Technologies
 - <b>HTML5:</b> For structuring the website content.
 - <b>CSS3:</b> Used for styling, with a focus on responsiveness and cross-browser compatibility. The site uses viewport units for fluid layouts and **'calc()'** functions for dynamic sizing.
-- <b>Form Handling:</b> For the contact form's email functionality, the website utilizes [formsubmit.co](https://formsubmit.co "ExploreBooking repository"), a simple service for sending form submissions directly to an email without the need for a backend server. This approach simplifies the process of managing contact form responses.
+- <b>Form Handling:</b> For the contact form's email functionality, the website utilizes [formsubmit.co](https://formsubmit.co "Form submission handle"), a simple service for sending form submissions directly to an email without the need for a backend server. This approach simplifies the process of managing contact form responses.
 
 ### Development Highlights
 - <b>Responsive Design:</b> Emphasis on creating a website that adapts to various screen sizes and devices, using media queries and flexible layouts.
