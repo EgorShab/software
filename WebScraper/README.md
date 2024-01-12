@@ -6,7 +6,7 @@ Scripts are part of a personal initiative to automate the process of price monit
 - <b>Data Fetching:</b> Each script starts by making HTTP requests to specific web pages.
 - <b>Data Parsing:</b> Upon retrieving the web page's content, BeautifulSoup is used to parse the HTML/XML. This step involves identifying and extracting the relevant pieces of information - pricing and product details.
 - <b>Data Processing:</b> The extracted data is then processed.
-- <b>Result:</b> The processed data is either stored for later use in [output.json](/WebScraper/output.json "output file") or could be outputted in a required format. This could be in the form of a JSON file, a database entry, or a simple print statement for immediate viewing.
+- <b>Result:</b> The processed data is either stored for later use in [output.json](/WebScraper/output.json "Example of output file") or could be outputted in a required format. This could be in the form of a JSON file, a database entry, or a simple print statement for immediate viewing.
 
 ### Libraries
 - <b>Requests:</b> This library is utilized for making HTTP requests to web pages. It is essential for accessing the content of the websites from which data is to be scraped.
