@@ -21,5 +21,5 @@ Despite the straightforward initial concept, the development journey faced sever
 - <b>Cross-Browser Compatibility:</b> Ensured that the website functions correctly across different browsers.
 - <b>SEO Practices:</b> Basic SEO practices implemented to enhance the site's visibility on search engines.
 ### Challenges and Learning
-- <b>Client Communication:</b> Navigating through slow responses and changing requirements, which provided insights into client management and flexibility in development.
+- <b>Client Communication:</b> Navigating through slow responses and changing requirements, which provided insights into client management and flexibility.
 - <b>Design Iterations:</b> The process of accommodating numerous design changes, offering valuable experience in adaptability and iterative development.
