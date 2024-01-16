@@ -1,0 +1,19 @@
+<main class="container">
+    <div class="form-group p-2">
+        <h5>{{ survey.name }}</h5>
+        <h6>{{ survey.description }}</h6>
+    </div>
+    <form #form="ngForm" (ngSubmit)="submitResponse(form)">
+        <div *ngFor="let response of response.responses" class="form-group p-2">
+            <label>{{response.question.questionText}}</label>
+            <select *ngIf="response.question.questionOptions.length" [(ngModel)]='response.response' name="response" class="m-1">
+                <option *ngFor="let questionOption of response.question.questionOptions" value="{{questionOption}}">{{questionOption}}</option>
+            </select>
+            <input *ngIf="!response.question.questionOptions.length" type="text" [(ngModel)]='response.response' name="response" id="{{response.question._id}}" class="form-control" placeholder="{{response.question.questionText}}" required />
+        </div>
+        <button class="btn btn-primary m-2"> 
+            <i class="fas fa-edit"></i> Submit
+        </button>
+        <button class="btn btn-warning" routerLink='/survey'><i class="fas fa-undo"></i> Cancel</button>
+    </form>
+</main>

@@ -1,0 +1,43 @@
+<main class="container">
+    <button *ngIf="user" class="btn btn-primary m-1" routerLink='./add'>
+        <i class="fas fa-plus-circle"></i> Add a Survey
+    </button>
+    <table class="table table-striped m-1">
+        <thead>
+            <tr>
+                <th scope="col">Survey</th>
+                <th scope="col">Author</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let survey of surveyTemplates'>
+                <td class="align-middle">{{ survey.name }}</td>
+                <td class="align-middle">{{ survey.authorName }}</td>
+                <td>
+                    <button *ngIf="user && user.id === survey.userId" class="btn btn-info btn-sm m-1" [routerLink]="['./edit/', survey._id]">
+                        <i class="fas fa-pencil-alt"></i> Update
+                    </button>
+                </td>
+                <td>
+                    <button *ngIf="user && user.id === survey.userId" class="btn btn-danger btn-sm m-1" (click)="deleteSurvey(survey)">
+                        <i class="fas fa-trash-alt"></i> Delete
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-success btn-sm m-1" [routerLink]="['./respond/', survey._id]">
+                        <i class="fa-solid fa-reply"></i> Respond
+                    </button>
+                </td>
+                <td>
+                    <button *ngIf="user && user.id === survey.userId" class="btn btn-secondary btn-sm m-1" [routerLink]="['./report/', survey._id]">
+                        <i class="fa-solid fa-square-poll-vertical"></i> Report
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</main>

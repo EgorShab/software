@@ -1,0 +1,35 @@
+<main class="container">
+    <div class="form-group p-2">
+        <h5>{{ survey.name }}</h5>
+        <p>Number of response: {{ surveyResponses.length }} </p>
+    </div>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th class="text-center">User</th>
+                <th *ngFor="let question of survey.questions">
+                    {{ question.questionText }}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let surveyResponse of surveyResponses">
+                <td>{{ surveyResponse.displayName }}</td>
+                <td *ngFor="let question of survey.questions">
+                    {{ getUserResponse(surveyResponse, question._id) }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary" type="button" (click)="print()">
+        <i class="fa-solid fa-print"></i> Print
+    </button>
+    <button class="btn btn-warning m-2" routerLink='/survey'><i class="fas fa-undo"></i> Back</button>
+</main>
+<style>
+    @media print {
+        .navbar-logo, .navbar, .content, .btn {
+            display: none;
+        }
+    }
+</style>

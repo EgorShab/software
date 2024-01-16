@@ -1,0 +1,57 @@
+<main class="container">
+    <form #form="ngForm" (ngSubmit)="submitTemplate(form)" class="m-2">
+        <div class="form-group p-2">
+            <label for="nameTextField">Survey Name</label>
+            <input [(ngModel)]='survey.name' name="name" id="nameTextField" class="form-control" placeholder="Enter the Survey Name" required />
+        </div>
+        <div class="form-group p-2">
+            <label for="descriptionTextField">Description</label>
+            <textarea [(ngModel)]='survey.description' name="description" id="descriptionTextField" class="form-control" placeholder="Enter the Survey Description"></textarea>
+        </div>
+        <div class="form-group p-2 row">
+            <div class="col">
+                <label for="startDateDateField">Start Date</label>
+                <input [ngModel]="survey.startDate | date:'yyyy-MM-dd'" (ngModelChange)="survey.startDate = $event" type="date" class="m-1" name="startDate" id="startDateDateField" placeholder="Enter the Start Date" required />
+            </div>
+            <div class="col">
+                <label for="endDateDateField">End Date</label>
+                <input [ngModel]="survey.endDate | date:'yyyy-MM-dd'" (ngModelChange)="survey.endDate = $event" type="date" class="m-1" name="endDate" id="endDateDateField" placeholder="Enter the End Date" required />
+            </div>
+            <div class="col">
+            <label for="surveyType">Question Type</label>
+                <select [(ngModel)]='survey.surveyType' name="surveyType" class="m-1">
+                    <option value="MC">Multiple Choice</option>
+                    <option value="AD">Agress / Disagree</option>
+                    <option value="SA">Short Answer</option>
+                </select>
+            </div>
+        </div>
+        <div class="questions">
+            <div *ngFor="let question of survey.questions;let questionIndex = index;" class="card m-2">
+                <div class="card-body">
+                    <div class="form-group p-2">
+                        <button class="del-question-btn btn btn-light btn-sm rounded-circle" type="button" (click)='removeQuestion(question)'><i class="fas fa-minus-circle"></i></button>
+                        <span>Q</span><input [(ngModel)]='question.questionNumber' type="number" min="1" step="1" name='questionNumberText_{{questionIndex}}' class="align-middle col-md-1 m-1" placeholder="#" required />
+                        <input [(ngModel)]='question.questionText' name='questionTextText_{{questionIndex}}' class="align-middle col-md-12 m-1" placeholder="Enter the Question" required />
+                        <div class="form-group options">
+                            <div *ngFor='let questionOptionObj of question.questionOptionObjs; let optionIndex = index' class="form-group option-area">
+                                <button class="btn btn-light btn-sm rounded-circle" type="button" (click)='removeOption(question, questionOptionObj)'><i class="fas fa-minus-circle"></i></button>
+                                <input name='optionText_{{questionIndex}}_{{optionIndex}}' class="m-1 w-75 align-middle" placeholder="Enter the Option" [(ngModel)]='questionOptionObj.text' required />
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-info" type="button" (click)="addOption(question)"><i class="fas fa-plus-circle"></i> Option</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group p-2">
+            <button type="button" class="btn btn-success" id="btnAddQuestion" (click)="addQuestion()"><i class="fas fa-plus-circle"></i> Question</button>
+        </div>
+        <div class="form-group p-2">
+            <button class="btn btn-primary">
+                <i class="fas fa-edit"></i> Submit
+            </button>
+            <button class="btn btn-warning m-2" routerLink='/survey'><i class="fas fa-undo"></i> Cancel</button>
+        </div>
+    </form>
+</main>
