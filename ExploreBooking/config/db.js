@@ -1,8 +1,8 @@
 // File name: db.js
 // Web App name: explorebooking
 
-// DB connection string aalmario
-let atlasDB = "mongodb+srv://COMP231W23-T8:2hIbHQfFR21cEMNC@comp231w23-t8.e8jm5ef.mongodb.net/databank";
+// DB connection string 
+let atlasDB = "mongodb+srv://.../databank";
 
 // Database setup
 let mongoose = require('mongoose');
