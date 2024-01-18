@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//import { Router } from '@angular/router';
 import { SurveyTemplate } from '../model/surveyTemplate.model';
 import { SurveyTemplateRepository } from '../model/surveyTemplate.service';
 import { User } from '../model/user.model';
