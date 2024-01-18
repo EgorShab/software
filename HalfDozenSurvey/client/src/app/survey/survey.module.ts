@@ -13,7 +13,6 @@ const routing = RouterModule.forChild([
     { path: 'edit/:id', component: DetailComponent },
     { path: 'respond/:id', component: RespondComponent },
     { path: 'report/:id', component: ReportComponent },
-    //{ path: '**', redirectTo: '/' },
 ]);
 
 @NgModule({
