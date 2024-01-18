@@ -32,3 +32,6 @@ ExploreBooking is a collaborative web application project, built on the Model-Vi
 - <b>mongoose:</b> Manages data modeling with MongoDB.
 - <b>morgan:</b> Logs HTTP requests.
 - <b>passport & passport-local:</b> Handles user authentication.
+
+### License
+This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
