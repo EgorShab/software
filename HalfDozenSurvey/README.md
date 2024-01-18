@@ -31,7 +31,7 @@ Responsive Design: Ensures the application is accessible and functional on vario
 - **Connect-flash & req-flash:** For session-based messaging between requests.
 - **Cookie-parser:** Parsing cookie header for managing user sessions.
 - **CORS:** Handling secure cross-origin requests.
-- **Morgan:** HTTP request logger middleware.
+- **Morgan:** HTTP request logger middleware to aid in monitoring and debugging.
 - **HTTP-Errors:** Streamlined error handling.
 
 ## Challenges and Learning
