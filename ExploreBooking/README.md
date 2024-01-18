@@ -34,4 +34,4 @@ ExploreBooking is a collaborative web application project, built on the Model-Vi
 - <b>passport & passport-local:</b> Handles user authentication.
 
 ### License
-This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
+This project is licensed under the MIT License. For more details, see the [LICENSE](/ExploreBooking/LICENSE "LICENSE file") file.
