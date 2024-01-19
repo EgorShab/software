@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Lab3.LoginUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lab3"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid Background="Azure">
+        <Label Content="Username" HorizontalAlignment="Left" Margin="69,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,1.009"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="69,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.089,-0.069"/>
+        <Button Content="LogIn" Click="Login_Click" HorizontalAlignment="Left" Margin="79,205,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="userText" HorizontalAlignment="Left" Margin="185,77,0,0" TextWrapping="Wrap" Text="{Binding Username, Mode=OneWay}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="passText" HorizontalAlignment="Left" Margin="185,146,0,0" TextWrapping="Wrap" Text="{Binding Password, Mode=OneWay}" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Exit" Click="Exit_Click" HorizontalAlignment="Left" Margin="265,205,0,0" VerticalAlignment="Top"/>
+        
+    </Grid>
+
+</UserControl>
