@@ -25,16 +25,6 @@ Restaurant Bill Calculator Interface
   An intuitive and efficient bill calculator interface, allowing for quick and error-free bill generation, enhancing customer checkout experience.<br></br>
   <img src="BillCalculatorInterface.png" alt="Lab3 Restaurant Bill Calculator Interface" width="90%"/> 
 </div>
-Menu Management Panel
-<div align="center">
-  A versatile and easy-to-navigate panel for managing the restaurant's menu, offering features like adding new dishes, editing existing ones, and managing pricing.<br></br>
-  <img src="MenuManagementPanel.png" alt="Lab3 Menu Management Panel" width="90%"/> 
-</div>
-Sales and Analytics Dashboard
-<div align="center">
-  A comprehensive dashboard providing in-depth insights into sales trends, customer preferences, and overall restaurant performance.<br></br>
-  <img src="SalesAnalyticsDashboard.png" alt="Lab3 Sales and Analytics Dashboard" width="90%"/> 
-</div>
 
 <!-- ### Technologies and Architectural Pattern -->
 ### Application Framework and Architectural Pattern
@@ -52,6 +42,3 @@ Sales and Analytics Dashboard
 - **LoginUserControl.xaml & LoginUserControl.xaml.cs:** These files define the user control for login, handling the user interface and interactions for user authentication.
 - **MainWindow.xaml & MainWindow.xaml.cs:** The main window of the application, acting as the primary interface for user interaction and navigation.
 - **RestaurantBillCalculator.xaml & RestaurantBillCalculator.xaml.cs:** Dedicated interface components for calculating and managing restaurant bill.
-
-### Challenges and Learning
-- **Implementing MVVM Architecture:** Mastering the nuances of the MVVM pattern to achieve a clean architectural design.
