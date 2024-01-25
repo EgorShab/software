@@ -33,3 +33,7 @@ This repository hosts a C#.NET project featuring a classic Tic Tac Toe game impl
 - **Programming Language:** C#
 - **Framework:** .NET
 - **User Interface:** Windows Presentation Foundation (WPF)
+
+### UI Design and Responsiveness
+- **XAML:** Leveraging XAML for designing an aesthetically pleasing and functional user interface.
+- **Data Binding:** Extensive use of data binding, a hallmark of the MVVM pattern, for real-time UI updates and synchronization with underlying data.
