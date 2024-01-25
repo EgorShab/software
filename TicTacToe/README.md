@@ -11,10 +11,14 @@ This repository hosts a C#.NET project featuring a classic Tic Tac Toe game impl
 - **Customizable Settings:** Easily switch between two-player and one-player modes with a single click.
 - **Game Reset Functionality:** Allows players to start a new game or reset scores at any time.
 
-### Installation
+### Installation and Running the Game
+#### Option 1: Building from Source
 1. Clone the repository.
 1. Open the project in a compatible C#.NET environment.
 1. Build and run the application.
+#### Option 2: Running the Executable
+1.  [Download](https://github.com/EgorShab/software/TicTacToe/TicTacToe/bin/ReleaseTicTacToe.exe) the `TicTacToe.exe`.
+2.  Double-click the `TicTacToe.exe` file to launch the game immediately, without the need for building from source.
   
 ### How to Play
 1. **Start the Game**: Launch the application to open the Tic Tac Toe game window.
