@@ -17,7 +17,7 @@ This repository hosts a C#.NET project featuring a classic Tic Tac Toe game impl
 1. Open the project in a compatible C#.NET environment. 
 1. Build and run the application.
 #### Option 2: Running the Executable
-1.  [Download](https://github.com/EgorShab/software/tree/main/TicTacToe/TicTacToe/bin/Release/TicTacToe.exe) the `TicTacToe.exe`.
+1.  [Download](https://github.com/EgorShab/software/raw/main/TicTacToe/TicTacToe/bin/Release/TicTacToe.exe) the `TicTacToe.exe`.
 2.  Double-click the `TicTacToe.exe` file to launch the game immediately, without the need for building from source.
   
 ### How to Play
