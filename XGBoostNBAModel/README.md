@@ -249,4 +249,4 @@ This project distinguishes itself with an ensemble learning method, strategicall
 
 **Disclaimer**
 
-Please note that predicting NBA future game outcomes and sports betting is a difficult and risky process. This project is intended for educational purposes only and is not financial advice. Always exercise caution and conduct thorough research before engaging in sports betting.
+**Please note that predicting NBA future game outcomes and sports betting is a difficult and risky process. This project is intended for educational purposes only and is not financial advice. Always exercise caution and conduct thorough research before engaging in sports betting.**
