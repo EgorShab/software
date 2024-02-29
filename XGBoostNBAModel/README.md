@@ -60,6 +60,9 @@ Before executing the prediction scripts, it's crucial to organize the project fi
 Run the Python scripts sequentially to process the data and generate predictions:
 
 1. Start with `1_Get_future_Data.py` and continue through to `5_XGBoost_NBA_future_games_pred.py`, following any prompts or instructions provided by the scripts.
+   
+### Final Predictions Output
+The final future games prediction is in the `XGBoost_NBA_predictions.csv` file, located at the root of the project directory.
 
 ## Advanced Features
 
