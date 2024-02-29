@@ -62,7 +62,7 @@ Run the Python scripts sequentially to process the data and generate predictions
 1. Start with `1_Get_future_Data.py` and continue through to `5_XGBoost_NBA_future_games_pred.py`, following any prompts or instructions provided by the scripts.
    
 ### Final Predictions Output
-The final future games prediction is in the `XGBoost_NBA_predictions.csv` file, located at the root of the project directory.
+The final future games prediction is in the [`XGBoost_NBA_predictions.csv`](/XGBoostNBAModel/XGBoost_NBA_predictions.csv "Example of output table") file, located at the root of the project directory.
 
 ## Advanced Features
 
@@ -91,13 +91,11 @@ This project distinguishes itself with an ensemble learning method, strategicall
 | **macro avg** | 0.87    | 0.87   | 0.87     | 5573    |
 | **weighted avg** | 0.87 | 0.87   | 0.87     | 5573    |
 
-**Confusion Matrix**: 
+<br>
+<img src="/../main/Images/XGBoost/Player_stats_features.png" alt="Player stats model feature importance" width="95%"/> 
 
-*Include image or table of confusion matrix here.*
-
-**Feature Importance**:
-
-*Include image or visualization of feature importance here.*
+<br>
+<img src="/../main/Images/XGBoost/Player_stats_confusionMatrix.png" alt="Player stats model confusion matrix" width="50%"/> 
 
 **Best Cross-validation Score**: 0.8648775057486033
 
@@ -117,9 +115,9 @@ This project distinguishes itself with an ensemble learning method, strategicall
 | **macro avg** | 0.62    | 0.62   | 0.62     | 4420    |
 | **weighted avg** | 0.62 | 0.62   | 0.62     | 4420    |
 
-**Confusion Matrix**: 
+<br>
 
-*Include image or table of confusion matrix here.*
+<img src="/../main/Images/XGBoost/history_confusionMatrix.png" alt="History model confusion matrix" width="50%"/> 
 
 ### Test Predictions for Season 2023-2024
 
