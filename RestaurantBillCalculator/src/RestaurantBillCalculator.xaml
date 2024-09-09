@@ -1,4 +1,4 @@
-﻿<Window x:Class="Lab3.RestaurantBillCalculator"
+<Window x:Class="Lab3.RestaurantBillCalculator"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -46,15 +46,8 @@
         <TextBox Grid.Column="1" IsReadOnly="True" HorizontalAlignment="Left" Name="txtSubTotal" Margin="152,66,0,0" Grid.Row="5" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139" Visibility="Hidden"/>
         <Button Grid.Column="1" Name="RmSelect" Content="Remove item" Click="RmSelect_Click"  HorizontalAlignment="Left" Margin="106,16,0,0" Grid.Row="5" VerticalAlignment="Top"/>
 
-        <StatusBar Height="60" VerticalAlignment="Bottom" Width="787" HorizontalAlignment="Center" Grid.Row="6" Grid.ColumnSpan="5">
-            <StatusBarItem>
-                <Button  Name="Web_Btn" Click="Web_Btn_Click" Cursor="Hand">
-                    <Image VerticalAlignment="Center" Height="60"  Source="/Static/download.png" />
-                </Button>
-            </StatusBarItem>
-            <StatusBarItem Width="290">
-                <Label FontSize="20px" HorizontalAlignment="Right" FontWeight="Bold" Content="Egor Shabalkin - 301179880" />
-            </StatusBarItem>
+        <StatusBar Height="60" VerticalAlignment="Bottom" Width="800" HorizontalAlignment="Center" Grid.Row="6" Grid.ColumnSpan="5">
+   
         </StatusBar>
         <Button Grid.Column="1" Content="Exit" Name="ext" Click="ext_Click" HorizontalAlignment="Left" Margin="14,175,0,0" Grid.Row="5" VerticalAlignment="Top" Height="38" Width="76"/>
 
