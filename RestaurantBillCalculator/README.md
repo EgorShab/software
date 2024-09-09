@@ -23,7 +23,7 @@ Secure Login Interface
 Restaurant Bill Calculator Interface
 <div align="center">
   An intuitive and efficient bill calculator interface, allowing for quick and error-free bill generation, enhancing customer checkout experience.<br></br>
-  <img src="/../main/Images/RestaurantBillCalculator/BillCalculatorInterface.png" alt="Restaurant Bill Calculator Interface" width="90%"/> 
+  <img src="/../main/Images/RestaurantBillCalculator/RestaurantBillCalculatorInterface.png" alt="Restaurant Bill Calculator Interface" width="90%"/> 
 </div>
 
 <!-- ### Technologies and Architectural Pattern -->
