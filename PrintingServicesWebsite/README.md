@@ -2,7 +2,7 @@
 ### Overview
 This project is a minimalist and cost-effective website designed for a printing services business. The inception of this website stemmed from a suggestion to create a basic yet functional online presence for a small-scale printing service provider. The objective was to craft a platform that effectively showcases various printing services like t-shirt printing, banner creation, business card design, and more, catering to a niche market.
 
-Despite the straightforward initial concept, the development journey faced several challenges, primarily due to delayed responses from the client and numerous requested alterations. These factors significantly influenced the pace and direction of the project, leading to its current state where it has not been deployed in a live environment. 
+<!-- Despite the straightforward initial concept, the development journey faced several challenges, primarily due to delayed responses from the client and numerous requested alterations. These factors significantly influenced the pace and direction of the project, leading to its current state where it has not been deployed in a live environment. -->
 
 <br>
 <div align="center">
