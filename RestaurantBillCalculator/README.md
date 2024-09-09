@@ -13,17 +13,17 @@ Restaurant Bill Calculator is an intricately designed WPF (Windows Presentation 
 Main Application Window
 <div align="center">
   The central hub of the application, featuring a user-friendly dashboard that grants access to all major functionalities, including order placement, menu management, and sales reports.<br></br>
-  <img src="/../main/Images/RestaurantBillCalculator/MainApplicationWindow.png" alt="Main Application Window" width="90%"/> 
+  <img src="/../main/Images/RestaurantBillCalculator/MainApplicationWindow.png" alt="Main Application Window" width="80%"/> 
 </div>
 Secure Login Interface
 <div align="center">
   A meticulously designed login interface ensuring secure access, with role-based authentication for different types of users such as waitstaff, chefs, and administrators.<br></br>
-  <img src="/../main/Images/RestaurantBillCalculator/SecureLoginInterface.png" alt="Secure Login Interface" width="90%"/> 
+  <img src="/../main/Images/RestaurantBillCalculator/SecureLoginInterface.png" alt="Secure Login Interface" width="80%"/> 
 </div>
 Restaurant Bill Calculator Interface
 <div align="center">
   An intuitive and efficient bill calculator interface, allowing for quick and error-free bill generation, enhancing customer checkout experience.<br></br>
-  <img src="/../main/Images/RestaurantBillCalculator/RestaurantBillCalculatorInterface.png" alt="Restaurant Bill Calculator Interface" width="90%"/> 
+  <img src="/../main/Images/RestaurantBillCalculator/RestaurantBillCalculatorInterface.png" alt="Restaurant Bill Calculator Interface" width="80%"/> 
 </div>
 
 <!-- ### Technologies and Architectural Pattern -->
